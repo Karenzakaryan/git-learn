@@ -3,4 +3,3 @@ def plus(a, b):
 
 
 print(plus(1, 2))
-
