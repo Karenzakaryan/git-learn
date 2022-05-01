@@ -1,9 +1,11 @@
-print("hello world")
+def uniform_num(n):
+    """
+    uniform_num(n)
+    """
+    if n == 1:
+        return 1
+    else:
+        return n * uniform_num(n - 1)
 
 
-def random_num():
-    import random
-    return random.uniform(1, 10)
-
-
-print(random_num())
+uniform_num(5)
